@@ -13,6 +13,7 @@ function App() {
     { value: "Yellow", label: "Yellow" }
   ];
 
+  
   return (
     <MultiSelect options={colorsList} value={selected} onChange={setSelected} />
   );
